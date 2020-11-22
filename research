@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Thomas Schaper by thscp</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Thomas Schaper</h1>
+        <p class="view"><img src="picture_website.jpg" width=270 height=270></p>
+        <p>Ph.D. researcher @ FEB, KU Leuven</p>
+        <h3><p class="view"><a href="https://thscp.github.io/">About Me</a></p></h3>
+        <h3><p class="view"><a href="https://thscp.github.io/research.html">Research</a></p></h3>
+	<h3><p class="view"><a href="https://thscp.github.io/teaching.html">Teaching</a></p></h3>
+	<h3><p class="view"><a href="https://thscp.github.io/data.html">Data</a></p></h3>
+	<h3><p class="view"><a href="https://feb.kuleuven.be/research/MSI/home">Official Website</a></p></h3>
+	<h3><p class="view"><a href="https://thscp.github.io/cv/CV.pdf">CV</a></p></h3>
+  <p>If you would like to reach me, please email me at <b>thomas.schaper at kuleuven dot be</b>. </p>
+  <p> <a href="https://twitter.com/ThomasSchaper" class="twitter-follow-button" data-show-count="false">Follow @ThomasSchaper</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </p>
+      </header>
+      <section>
+        <h3><a id="updates" class="anchor" href="#updates" aria-hidden="true"><span class="octicon octicon-link"></span></a>About me:</h3>
+	<p> Welcome to my home page. I am currently a Ph.D. candidate at the Department of Managment, Strategy and Innovation (MSI) at KU Leuven. My research is funded by the Research Foundation - Flanders (FWO).</p>
+	<p> My research interests are in the economics of innovation, science and technology. My on-going projects are about human capital externalities in scientific production, digitization and the impact of institutions on knowledge spillovers.</p>
+	<p> <b> I am on the 2020/2021 job market.</b> </p>
+      </section>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+  </body>
+</html>
