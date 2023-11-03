@@ -1,5 +1,5 @@
 // Insert the message to display
-var message = "This website uses cookies to ensure you get the best experience. By using this website, you agree to my use of cookies." <a href="https://thscp.github.io/cookies.html">Learn more</a>;
+var message = "This website uses cookies to ensure you get the best experience. By using this website, you agree to my use of cookies.";
 // Insert the Url with the page cookies description
 var coockieUrl = "cookies.html";
 // Insert number of days until the cookie expires
