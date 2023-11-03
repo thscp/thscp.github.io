@@ -36,6 +36,12 @@
 
       gtag('config', 'G-Q0RJJM1EW0');
     </script>
+    <!-- Add cookie conset banner for Google Analytics -->
+      <div id="cookie-consent" style="display: none; position: fixed; bottom: 0; left: 0; width: 100%; background: #333; color: #fff; padding: 10px; text-align: center;">
+        This website uses cookies to ensure you get the best experience. By using our website, you agree to our use of cookies. <a href="#">Learn more</a>
+        <button onclick="handleCookieConsent(true)">Accept</button>
+        <button onclick="handleCookieConsent(false)">Decline</button>
+      </div>
 <!-- Add CSS to style the cookie consent banner -->
     <style>
       #cookie-consent {
@@ -69,12 +75,6 @@
       </section>
     </div>
     <script src="javascripts/scale.fix.js"></script>
-  <!-- Add cookie conset banner for Google Analytics -->
-    <div id="cookie-consent" style="display: none; position: fixed; bottom: 0; left: 0; width: 100%; background: #333; color: #fff; padding: 10px; text-align: center;">
-      This website uses cookies to ensure you get the best experience. By using our website, you agree to our use of cookies. <a href="#">Learn more</a>
-      <button onclick="handleCookieConsent(true)">Accept</button>
-      <button onclick="handleCookieConsent(false)">Decline</button>
 
-    </div>
   </body>
 </html>
