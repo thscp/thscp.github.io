@@ -8,6 +8,25 @@
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-light.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<!-- Handle cookie conset for Google Analytics -->
+    <script>
+      function handleCookieConsent(consent) {
+        if (consent) {
+          // User consents to tracking, load Google Analytics
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
+          gtag('js', new Date());
+          gtag('config', 'G-Q0RJJM1EW0');
+        } else {
+          // User does not consent to tracking, remove cookies
+          // You may need to add the specific cookie names that Google Analytics uses
+          document.cookie = '_ga=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+          document.cookie = '_gid=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+        }
+      }
+    </script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q0RJJM1EW0"></script>
     <script>
@@ -17,6 +36,13 @@
 
       gtag('config', 'G-Q0RJJM1EW0');
     </script>
+<!-- Add CSS to style the cookie consent banner -->
+    <style>
+      #cookie-consent {
+        display: none; /* Initially hidden */
+      }
+    </style>
+    
   </head>
   <body>
     <div class="wrapper">
@@ -42,5 +68,12 @@
       </section>
     </div>
     <script src="javascripts/scale.fix.js"></script>
+  <!-- Add cookie conset banner for Google Analytics -->
+    <div id="cookie-consent" style="display: none; position: fixed; bottom: 0; left: 0; width: 100%; background: #333; color: #fff; padding: 10px; text-align: center;">
+      This website uses cookies to ensure you get the best experience. By using our website, you agree to our use of cookies. <a href="#">Learn more</a>
+      <button onclick="handleCookieConsent(true)">Accept</button>
+      <button onclick="handleCookieConsent(false)">Decline</button>
+
+    </div>
   </body>
 </html>
